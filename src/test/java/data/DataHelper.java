@@ -80,4 +80,6 @@ public class DataHelper {
     public static String getEmptyOwner() {
         return "";
     }
+
+    public static String getOwnerCyrillic () {return "Петроченко Владимир"; }
 }

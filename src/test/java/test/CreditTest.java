@@ -207,6 +207,19 @@ public class CreditTest {
         paymentFormCredit.fillingFieldsFormat(cardNumber, month, year, cvccvv, owner);
         paymentFormCredit.checkEmptyFieldMessage();
     }
+    @Test
+    void emptyOwnerCyrillicName_Credit() {
+        val dashboardPage = new DashboardPage();
+        val paymentFormCredit = new Credit();
+        dashboardPage.getCreditPayment();
+        val cardNumber = DataHelper.getApprovedCardNumber();
+        val month = DataHelper.getMonth();
+        val year = DataHelper.getYear();
+        val cvccvv = DataHelper.getCorrectCVCCVV();
+        val owner = DataHelper.getOwnerCyrillic();
+        paymentFormCredit.fillingFieldsFormat(cardNumber, month, year, cvccvv, owner);
+        paymentFormCredit.checkEmptyFieldMessage();
+    }
 
 }
 

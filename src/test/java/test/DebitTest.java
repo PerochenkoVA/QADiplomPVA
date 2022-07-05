@@ -213,6 +213,19 @@ public class DebitTest {
         debit.fillingFieldsFormat(cardNumber, month, year, cvccvv, owner);
         debit.checkEmptyFieldMessage();
     }
+    @Test
+    void emptyOwnerCyrillicName() {
+        val dashboardPage = new DashboardPage();
+        val debit = new Debit();
+        dashboardPage.getDebitCardPayment();
+        val cardNumber = DataHelper.getApprovedCardNumber();
+        val month = DataHelper.getMonth();
+        val year = DataHelper.getYear();
+        val cvccvv = DataHelper.getCorrectCVCCVV();
+        val owner = DataHelper.getOwnerCyrillic();
+        debit.fillingFieldsFormat(cardNumber, month, year, cvccvv, owner);
+        debit.checkEmptyFieldMessage();
+    }
 }
 
 
