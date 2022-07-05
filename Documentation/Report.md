@@ -10,9 +10,15 @@
 * Успешных - 18
 * Неуспешных - 6
     
-###Отчет allure:
+###Отчет gradle:
     
 <img width="706" alt="Снимок экрана 2022-07-05 в 18 21 47" src="https://user-images.githubusercontent.com/83920626/177364148-fab92204-4ddb-44fa-9da7-2032da77844e.png">
+
+### Отчет allure:
+<img width="1731" alt="Снимок экрана 2022-07-05 в 20 41 28" src="https://user-images.githubusercontent.com/83920626/177385494-40ae519d-bdaa-4eb2-bc7f-73b88c50d340.png">
+<img width="886" alt="Снимок экрана 2022-07-05 в 20 41 41" src="https://user-images.githubusercontent.com/83920626/177385515-7758fd53-fc93-415f-ae60-7b875b95be58.png">
+<img width="886" alt="Снимок экрана 2022-07-05 в 20 41 53" src="https://user-images.githubusercontent.com/83920626/177385528-523b2dfa-1ccf-4dfc-9fff-952b7bab7421.png">
+
 
 Итого успешно "прошли" 81% тестов, что является низким показателем качество предоставленного сервиса.  
 В результате составлены баг-репорты:
