@@ -24,6 +24,7 @@ out/
 /dist/
 /nbdist/
 /.nb-gradle/
+/msdata/
 
 ### VS Code ###
 .vscode/
